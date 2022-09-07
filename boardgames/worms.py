@@ -60,7 +60,7 @@ class WormsPlayer(IPlayer):
         roll_dice = Input("")
         if roll_dice:
             dice_to_roll = Input("Give indices of dice to roll")
-            self.validate_dice_availability
+            self.validate_dice_availability()
 
     def roll_dice(self, n_dice):
         pass
@@ -75,6 +75,9 @@ class WormsPlayer(IPlayer):
         print(f"Player {self.id}/n Latest chip: {self.chips[-1]}/n # Worms: {self.n_worms}")
     
     def show_dice_roll(self):
+        pass
+
+    def validate_dice_availability(self):
         pass
 
 
