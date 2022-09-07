@@ -9,4 +9,5 @@ setup(
     author='David P. Kroon',
     author_email='davidkroon90@gmail.com',
     description='Board Games Engines',
+    long_description='A Python packages to play board games!'
 )
