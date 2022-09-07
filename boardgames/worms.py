@@ -51,7 +51,7 @@ class WormsPlayer(IPlayer):
         self.n_worms = 0
 
     def take_turn(self):
-        self.roll_dice()
+        self.roll_dice(6)
         self.show_dice_roll()
         # ask what to keep
         # ask if roll dice
@@ -73,6 +73,9 @@ class WormsPlayer(IPlayer):
 
     def get_score(self):
         print(f"Player {self.id}/n Latest chip: {self.chips[-1]}/n # Worms: {self.n_worms}")
+    
+    def show_dice_roll(self):
+        pass
 
 
 @dataclass
