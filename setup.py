@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import versioneer
 
 setup(
-    name='games',
+    name='board-games',
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     url='https://github.com/dp90/board-games.git',
