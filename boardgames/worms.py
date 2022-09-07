@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from typing import List
-from interfaces import IPlayer, IGame
+from boardgames.interfaces import IPlayer, IGame
 
 
 class Worms(IGame):
